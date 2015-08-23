@@ -64,4 +64,4 @@ act_df <- read.table("UCI HAR Dataset/activity_labels.txt",
 #Replace Activity numbers with labels in smr_df 
 smr_df$Activity <- act_df$V2[match(smr_df$Activity, act_df$V1)]
 #Produce the tidy dataset
-write.table(smr_df, file = "tidydata-Haider.txt")
+write.table(smr_df, file = "tidydata-Haider.txt", row.names=FALSE)
