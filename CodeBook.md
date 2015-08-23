@@ -2,8 +2,10 @@ This Codebook attempts to explain the 68 variables contained within the tidy dat
 
 The tidy dataset contains information for 6 activities carried out by the 30 participants of the study.
 Apart from the "Subject" and "Activity" variables the rest of the 66 variables are mean values extracted from the test and training datasets.
+
 These mean values are in respect of those variables which had "mean()" or "std()" string in their names in respect of test and training datasets.
-The description of variables is derived from the information contained within the README.txt file of the original dataset.
+
+The description of variables is derived from the information contained within the README.txt file of the original dataset. Please note that the variable names for the 66 measures have not been changed or transformed in the tidy dataset. They are rather explained in little more detail in this document. 
 
 Summary of Variables and description
 ------------------------------------
